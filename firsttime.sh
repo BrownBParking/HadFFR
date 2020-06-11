@@ -7,7 +7,7 @@ fi
 
 python -m venv --copies venv
 
-echo -e "\nexport PYTHONPATH=$PWD/venv/lib/python3.6/site-packages:$PWD:\$PYTHONPATH\n"
+echo -e "\nexport PYTHONPATH=$PWD/venv/lib/python3.6/site-packages:$PWD:\$PYTHONPATH\n" >> venv/bin/activate
 
 source venv/bin/activate
 #python -m pip install setuptools pip --upgrade
